@@ -17,6 +17,8 @@
 
 html {
   font-size: 16px;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -41,10 +43,82 @@ video {
   vertical-align: middle;
 }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
+.intro-2 {
+  background-color: #435c54;
+}
+
+footer {
+  background-color: #435c54;
+}
+
+header {
+  background-image: url(../img/photo-aurores.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+h1 {
+  text-align: center;
+}
+
+header h3 {
+  text-align: center;
+  padding: 30px;
+  padding-bottom: 450px;
+  font-size: 55px;
+  padding-top: 50px;
+}
+
+nav {
+  padding-top: 150px;
+  padding-bottom: 250px;
+  font-size: 30px;
+}
+
+.animation {
+  display: flex;
+  align-items: center;
+}
+
+.txt {
+  white-space: nowrap;
+  font-size: 70px;
+  animation: Scroll 3s linear infinite;
+}
+
+@keyframes Scroll {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animation span {
+  color: white;
+  font-family: sans-serif;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+}
+
+.intro img {
+  width: 40%;
+}
+
+.intro .intro-text {
+  width: 60%;
+}
+
+.intro-text h4 {
+  padding: 70px;
+}
+
+.intro-text p {
+  padding: 70px;
 }
