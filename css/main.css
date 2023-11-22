@@ -41,6 +41,7 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
+  display: block;
 }
 
 .intro-2 {
@@ -108,17 +109,72 @@ nav {
 }
 
 .intro img {
-  width: 40%;
+  width: 42%;
 }
 
 .intro .intro-text {
-  width: 60%;
+  width: 58%;
+  padding-top: 100px;
 }
 
 .intro-text h4 {
-  padding: 70px;
+  padding-top: 500px;
+  padding-left: 300px;
 }
 
 .intro-text p {
-  padding: 70px;
+  padding-top: 20px;
+  padding-left: 300px;
+  padding-right: 250px;
+  font-size: 24px;
+}
+
+.intro-2 img {
+  width: 42%;
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
+.intro-2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.intro-2-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 400px;
+  padding-top: 400px;
+  padding-bottom: 250px;
+  padding-right: 300px;
+}
+
+.intro-2-text p {
+  padding-bottom: 100px;
+  font-size: 26px;
+}
+
+.carte {
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+.plats img {
+  border-color: white;
+  border-style: solid;
+  border-width: 0.5px;
+  width: max-content;
+}
+
+footer img {
+  width: 25px;
+}
+
+main {
+  padding-bottom: 150px;
+}
+
+footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
