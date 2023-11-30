@@ -42,6 +42,8 @@ video {
   block-size: auto;
   vertical-align: middle;
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .intro-2 {
@@ -114,11 +116,10 @@ nav {
 
 .intro .intro-text {
   width: 58%;
-  padding-top: 100px;
 }
 
 .intro-text h4 {
-  padding-top: 500px;
+  padding-top: 600px;
   padding-left: 300px;
 }
 
@@ -130,28 +131,27 @@ nav {
 }
 
 .intro-2 img {
-  width: 42%;
-  padding-top: 300px;
-  padding-bottom: 300px;
+  width: 50%;
 }
 
 .intro-2 {
   display: flex;
   flex-direction: row;
+  padding-top: 230px;
+  padding-bottom: 230px;
 }
 
 .intro-2-text {
   display: flex;
   flex-direction: column;
-  padding-left: 400px;
-  padding-top: 400px;
-  padding-bottom: 250px;
-  padding-right: 300px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 180px;
 }
 
 .intro-2-text p {
-  padding-bottom: 100px;
   font-size: 26px;
+  padding-bottom: 100px;
 }
 
 .carte {
@@ -160,10 +160,13 @@ nav {
 }
 
 .plats img {
+  width: 100%;
+  border-bottom: 0.5px;
   border-color: white;
   border-style: solid;
-  border-width: 0.5px;
-  width: max-content;
+  border-left: none;
+  border-right: none;
+  border-top: none;
 }
 
 footer img {
@@ -177,4 +180,90 @@ main {
 footer {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.lohikeitto {
+  border-color: white;
+  border-style: solid;
+  border-width: 0.5px;
+  margin-bottom: 30px;
+}
+
+.lohikeitto-text {
+  padding: 10px;
+}
+
+.korvapuusti {
+  border-color: white;
+  border-style: solid;
+  border-width: 0.5px;
+  margin-bottom: 30px;
+}
+
+.korvapuussti-text {
+  padding: 10px;
+}
+
+.iskrem {
+  border-color: white;
+  border-style: solid;
+  border-width: 0.5px;
+  margin-bottom: 30px;
+}
+
+.iskrem-text {
+  padding: 10px;
+}
+
+.renkorv {
+  border-color: white;
+  border-style: solid;
+  border-width: 0.5px;
+  margin-bottom: 30px;
+}
+
+.renkorv-text {
+  padding: 10px;
+}
+
+.skrei {
+  border-color: white;
+  border-style: solid;
+  border-width: 0.5px;
+  margin-bottom: 30px;
+}
+
+.skrei-text {
+  padding: 10px;
+}
+
+.bouton-carte {
+  border-color: white;
+  border-style: solid;
+  border-width: 0.5px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.bouton-carte p {
+  padding: 30px;
+  padding-bottom: 143px;
+  padding-top: 143px;
+  font-size: 27px;
+}
+
+.bouton-reservez {
+  border-color: white;
+  border-style: solid;
+  border-width: 0.5px;
+  text-align: center;
+  margin-right: 500px;
+  margin-left: 500px;
+  margin-top: 90px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-size: 20px;
+  margin-bottom: 30px;
 }
