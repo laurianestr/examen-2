@@ -25,11 +25,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
   font-size: 1rem;
   line-height: 1.25;
   background-color: black;
   color: white;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -44,6 +44,14 @@ video {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+nav span {
+  margin-left: 15px;
+}
+
+h2 {
+  margin-top: 10px;
 }
 
 .intro-2 {
@@ -65,18 +73,25 @@ h1 {
   text-align: center;
 }
 
+h4 {
+  font-weight: 300;
+}
+
 header h3 {
   text-align: center;
   padding: 30px;
-  padding-bottom: 450px;
-  font-size: 55px;
+  padding-bottom: 460px;
+  font-size: 50px;
   padding-top: 50px;
+  text-transform: uppercase;
+  font-weight: 300;
 }
 
 nav {
   padding-top: 150px;
   padding-bottom: 250px;
-  font-size: 30px;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 .animation {
@@ -112,6 +127,7 @@ nav {
 
 .intro img {
   width: 42%;
+  height: 100%;
 }
 
 .intro .intro-text {
@@ -132,6 +148,7 @@ nav {
 
 .intro-2 img {
   width: 50%;
+  height: 100%;
 }
 
 .intro-2 {
@@ -150,7 +167,7 @@ nav {
 }
 
 .intro-2-text p {
-  font-size: 26px;
+  font-size: 24px;
   padding-bottom: 100px;
 }
 
@@ -167,10 +184,6 @@ nav {
   border-left: none;
   border-right: none;
   border-top: none;
-}
-
-footer img {
-  width: 25px;
 }
 
 main {
@@ -193,11 +206,19 @@ footer {
   padding: 10px;
 }
 
+.lohikeitto h3 {
+  padding-bottom: 10px;
+}
+
 .korvapuusti {
   border-color: white;
   border-style: solid;
   border-width: 0.5px;
   margin-bottom: 30px;
+}
+
+.korvapuusti h3 {
+  padding-bottom: 10px;
 }
 
 .korvapuussti-text {
@@ -211,8 +232,13 @@ footer {
   margin-bottom: 30px;
 }
 
+.iskrem h3 {
+  padding-bottom: 10px;
+}
+
 .iskrem-text {
   padding: 10px;
+  padding-bottom: 30px;
 }
 
 .renkorv {
@@ -220,6 +246,10 @@ footer {
   border-style: solid;
   border-width: 0.5px;
   margin-bottom: 30px;
+}
+
+.renkorv h3 {
+  padding-bottom: 10px;
 }
 
 .renkorv-text {
@@ -231,6 +261,10 @@ footer {
   border-style: solid;
   border-width: 0.5px;
   margin-bottom: 30px;
+}
+
+.skrei h3 {
+  padding-bottom: 10px;
 }
 
 .skrei-text {
@@ -245,12 +279,13 @@ footer {
   display: flex;
   justify-content: center;
   align-content: center;
+  text-transform: uppercase;
 }
 
 .bouton-carte p {
   padding: 30px;
-  padding-bottom: 143px;
-  padding-top: 143px;
+  padding-bottom: 158px;
+  padding-top: 158px;
   font-size: 27px;
 }
 
@@ -266,4 +301,38 @@ footer {
   padding-top: 15px;
   font-size: 20px;
   margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo img {
+  margin-right: 10px;
+  width: 6%;
+  height: 100%;
+}
+
+.contacts-case h4 {
+  margin-bottom: 5px;
+}
+
+.contacts-case p {
+  font-size: 13px;
+}
+
+.contacts p {
+  padding-bottom: 10px;
+}
+
+.fleche img {
+  width: 20%;
+  height: 100%;
+  padding-top: 10px;
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  text-align: center;
 }
