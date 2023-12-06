@@ -333,6 +333,215 @@ footer {
   padding-top: 10px;
 }
 
-@media (min-width: 600px) and (max-width: 1200px) {
-  text-align: center;
+@media (min-width: 576px) and (max-width: 778px) {
+  nav {
+    text-align: center;
+  }
+
+  header h3 {
+    font-size: 20px;
+  }
+
+  .intro {
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .intro img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .intro .intro-text {
+    width: 100%;
+    height: 100%;
+  }
+
+  .intro-text h4 {
+    padding-top: 80px;
+    padding-left: 30px;
+    font-size: 13px;
+  }
+
+  .intro-text p {
+    padding-top: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 15px;
+    padding-bottom: 80px;
+  }
+
+  .intro-2 img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .intro-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 60px;
+  }
+
+  .intro-2-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 60px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .intro-2-text p {
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+
+  .txt {
+    white-space: nowrap;
+    font-size: 40px;
+    animation: Scroll 3s linear infinite;
+  }
+
+  h4 {
+    font-size: 13px;
+  }
+
+  .carte {
+    padding-top: 100px;
+  }
+
+  .bouton-reservez {
+    border-color: white;
+    border-style: solid;
+    border-width: 0.5px;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-right: 140px;
+    margin-left: 140px;
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+
+  .localisation {
+    margin-top: 25px;
+  }
+
+  .fleche {
+    margin-top: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media (min-width: 340px) and (max-width: 576px) {
+  nav {
+    text-align: center;
+  }
+
+  header h3 {
+    font-size: 20px;
+  }
+
+  .intro {
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .intro img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .intro .intro-text {
+    width: 100%;
+    height: 100%;
+  }
+
+  .intro-text h4 {
+    padding-top: 80px;
+    padding-left: 30px;
+    font-size: 13px;
+  }
+
+  .intro-text p {
+    padding-top: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 15px;
+    padding-bottom: 80px;
+  }
+
+  .intro-2 img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .intro-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 60px;
+  }
+
+  .intro-2-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 60px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .intro-2-text p {
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+
+  .txt {
+    white-space: nowrap;
+    font-size: 40px;
+    animation: Scroll 3s linear infinite;
+  }
+
+  h4 {
+    font-size: 13px;
+  }
+
+  .carte {
+    padding-top: 100px;
+  }
+
+  .bouton-reservez {
+    border-color: white;
+    border-style: solid;
+    border-width: 0.5px;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-right: 140px;
+    margin-left: 140px;
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+
+  .localisation {
+    margin-top: 25px;
+    margin-left: 100px;
+  }
+
+  .fleche {
+    margin-top: 30px;
+    padding-left: 30px;
+  }
+
+  .contacts {
+    padding-left: 100px;
+  }
 }
