@@ -435,9 +435,156 @@ footer {
     margin-top: 30px;
     padding-left: 30px;
   }
+
+  .contacts img {
+    width: 13%;
+    height: 100%;
+  }
 }
 
 @media (min-width: 340px) and (max-width: 576px) {
+  nav {
+    text-align: center;
+  }
+
+  header h3 {
+    font-size: 17px;
+    padding-top: 30px;
+  }
+
+  .intro {
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .intro img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .intro .intro-text {
+    width: 100%;
+    height: 100%;
+  }
+
+  .intro-text h4 {
+    padding-top: 80px;
+    padding-left: 30px;
+    font-size: 13px;
+  }
+
+  .intro-text p {
+    padding-top: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 15px;
+    padding-bottom: 80px;
+  }
+
+  .intro-2 img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .intro-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 60px;
+  }
+
+  .intro-2-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 60px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .intro-2-text p {
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+
+  .txt {
+    white-space: nowrap;
+    font-size: 40px;
+    animation: Scroll 3s linear infinite;
+  }
+
+  h4 {
+    font-size: 13px;
+  }
+
+  .carte {
+    padding-top: 100px;
+  }
+
+  .bouton-reservez {
+    border-color: white;
+    border-style: solid;
+    border-width: 0.5px;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+
+  .localisation {
+    margin-top: 25px;
+    margin-left: 60px;
+  }
+
+  .fleche {
+    margin-top: 30px;
+    padding-left: 30px;
+  }
+
+  .contacts {
+    padding-left: 60px;
+  }
+
+  .contacts img {
+    width: 25%;
+    height: 100%;
+  }
+
+  .animation {
+    display: flex;
+    align-items: center;
+    width: 340px;
+  }
+
+  .txt {
+    white-space: nowrap;
+    font-size: 70px;
+    animation: Scroll 3s linear infinite;
+  }
+
+  @keyframes Scroll {
+    0% {
+      transform: translateX(-100%);
+    }
+
+    100% {
+      transform: translateX(0%);
+    }
+  }
+
+  .animation span {
+    color: white;
+    font-family: sans-serif;
+  }
+}
+
+@media (min-width: 778px) and (max-width: 992px) {
   nav {
     text-align: center;
   }
@@ -532,16 +679,169 @@ footer {
   }
 
   .localisation {
-    margin-top: 25px;
-    margin-left: 100px;
+    margin-top: 0;
   }
 
   .fleche {
-    margin-top: 30px;
-    padding-left: 30px;
+    width: 100%;
   }
 
-  .contacts {
-    padding-left: 100px;
+  .contacts img {
+    width: 13%;
+    height: 100%;
+  }
+
+  .bouton-carte p {
+    padding: 30px;
+    padding-bottom: 135px;
+    padding-top: 135px;
+    font-size: 27px;
+  }
+
+  .renkorv {
+    border-color: white;
+    border-style: solid;
+    border-width: 0.5px;
+    margin-bottom: 30px;
+  }
+
+  .renkorv h3 {
+    padding-bottom: 10px;
+  }
+
+  .renkorv-text {
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  nav {
+    text-align: center;
+  }
+
+  header h3 {
+    font-size: 20px;
+  }
+
+  .intro {
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .intro img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .intro .intro-text {
+    width: 100%;
+    height: 100%;
+  }
+
+  .intro-text h4 {
+    padding-top: 80px;
+    padding-left: 30px;
+    font-size: 13px;
+  }
+
+  .intro-text p {
+    padding-top: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 15px;
+    padding-bottom: 80px;
+  }
+
+  .intro-2 img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .intro-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 60px;
+  }
+
+  .intro-2-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 60px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .intro-2-text p {
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+
+  .txt {
+    white-space: nowrap;
+    font-size: 40px;
+    animation: Scroll 3s linear infinite;
+  }
+
+  h4 {
+    font-size: 13px;
+  }
+
+  .carte {
+    padding-top: 100px;
+  }
+
+  .bouton-reservez {
+    border-color: white;
+    border-style: solid;
+    border-width: 0.5px;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-right: 140px;
+    margin-left: 140px;
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+
+  .localisation {
+    margin-top: 0;
+  }
+
+  .fleche {
+    width: 100%;
+  }
+
+  .contacts img {
+    width: 13%;
+    height: 100%;
+  }
+
+  .bouton-carte p {
+    padding: 30px;
+    padding-bottom: 135px;
+    padding-top: 135px;
+    font-size: 27px;
+  }
+
+  .renkorv {
+    border-color: white;
+    border-style: solid;
+    border-width: 0.5px;
+    margin-bottom: 30px;
+  }
+
+  .renkorv h3 {
+    padding-bottom: 10px;
+  }
+
+  .renkorv-text {
+    padding: 10px;
+    padding-bottom: 20px;
   }
 }
