@@ -19,6 +19,7 @@ html {
   font-size: 16px;
   width: 100%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -46,7 +47,7 @@ video {
   height: auto;
 }
 
-nav span {
+nav a {
   margin-left: 15px;
 }
 
@@ -428,6 +429,13 @@ footer {
     margin-bottom: 0;
   }
 
+  .bouton-carte p {
+    padding: 30px;
+    padding-bottom: 160px;
+    padding-top: 160px;
+    font-size: 27px;
+  }
+
   .localisation {
     margin-top: 25px;
   }
@@ -604,22 +612,23 @@ footer {
   .intro {
     text-align: center;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
   }
 
   .intro img {
-    width: 100%;
+    width: 50%;
     height: 100%;
   }
 
   .intro .intro-text {
-    width: 100%;
+    width: 50%;
     height: 100%;
+    text-align: left;
   }
 
   .intro-text h4 {
-    padding-top: 80px;
-    padding-left: 30px;
+    padding-top: 160px;
+    padding-left: 70px;
     font-size: 13px;
   }
 
@@ -680,8 +689,8 @@ footer {
     font-size: 15px;
     text-transform: uppercase;
     padding: 10px;
-    margin-right: 140px;
-    margin-left: 140px;
+    margin-right: 180px;
+    margin-left: 180px;
     margin-top: 50px;
     margin-bottom: 0;
   }
@@ -720,6 +729,16 @@ footer {
   .renkorv-text {
     padding: 10px;
     padding-bottom: 20px;
+  }
+
+  footer {
+    padding-top: 80px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .contacts-case {
+    margin-left: 130px;
   }
 }
 
@@ -734,19 +753,25 @@ footer {
     flex-direction: column-reverse;
   }
 
+  .intro {
+    display: flex;
+    flex-direction: row;
+  }
+
   .intro img {
-    width: 100%;
+    width: 50%;
     height: 100%;
   }
 
   .intro .intro-text {
-    width: 100%;
+    width: 50%;
     height: 100%;
+    text-align: left;
   }
 
   .intro-text h4 {
-    padding-top: 80px;
-    padding-left: 30px;
+    padding-top: 250px;
+    padding-left: 70px;
     font-size: 13px;
   }
 
@@ -783,7 +808,7 @@ footer {
 
   .intro-2-text p {
     font-size: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
   }
 
   .txt {
@@ -807,8 +832,8 @@ footer {
     font-size: 15px;
     text-transform: uppercase;
     padding: 10px;
-    margin-right: 140px;
-    margin-left: 140px;
+    margin-right: 300px;
+    margin-left: 300px;
     margin-top: 50px;
     margin-bottom: 0;
   }
@@ -828,8 +853,8 @@ footer {
 
   .bouton-carte p {
     padding: 30px;
-    padding-bottom: 135px;
-    padding-top: 135px;
+    padding-bottom: 160px;
+    padding-top: 160px;
     font-size: 27px;
   }
 
@@ -848,4 +873,39 @@ footer {
     padding: 10px;
     padding-bottom: 20px;
   }
+
+  footer {
+    padding-top: 30px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .contacts-case {
+    margin-left: 130px;
+    margin-top: 30px;
+  }
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+nav a {
+  padding: 3px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-decoration: none;
+}
+
+.bouton-carte:hover {
+  background-color: white;
+  color: black;
+}
+
+.bouton-reservez:hover {
+  background-color: white;
+  color: black;
 }

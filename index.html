@@ -15,13 +15,13 @@
   </head>
   <body>
     <header>
-      <div class="container accueuil">
+      <div id="fleche" class="container accueuil">
         <div class="row">
           <div class="col-12 col-md-12 col-xl-12">
             <nav>
-              <span>accueil</span>
-              <span>carte</span>
-              <span>contacts</span>
+              <a href="#acceuil">accueil</a>
+              <a href="#carte">carte</a>
+              <a href="#contacts">contacts</a>
               <hr />
             </nav>
           </div>
@@ -50,7 +50,7 @@
         </div>
       </div>
       <div class="intro">
-        <div class="intro-text">
+        <div id="acceuil" class="intro-text">
           <h4>À PROPOS DE NOUS</h4>
           <p>
             Nous proposons une expérience gastronomique immersive inspirée par
@@ -83,7 +83,7 @@
           </p>
         </div>
       </div>
-      <div class="container carte">
+      <div id="carte" class="container carte">
         <div class="row">
           <div class="col-12 col-md-12 col-xl-12">
             <h4>LA CARTE</h4>
@@ -173,12 +173,14 @@
       </div>
     </main>
     <footer>
-      <div class="container contacts-case">
+      <div id="contacts" class="container contacts-case">
         <div class="row">
           <div class="col-6 col-md-3 col-xl-3">
             <div class="contacts">
               <h4>CONTACTS</h4>
               <p>info@aurora.com</p>
+              <p>+45 31 71 61 61</p>
+
               <div class="logo">
                 <img src="img/tiktok.png" alt="logo tiktok" />
                 <img src="img/facebook.png" alt="logo facebook" />
@@ -207,7 +209,9 @@
           </div>
           <div class="col-6 col-md-3 col-xl-3">
             <div class="fleche">
-              <img src="img/icon.png" alt="flèche qui amène au début" />
+              <a href="#fleche"
+                ><img src="img/icon.png" alt="flèche qui amène au début"
+              /></a>
             </div>
           </div>
         </div>
